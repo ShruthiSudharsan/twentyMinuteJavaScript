@@ -1,0 +1,33 @@
+// Concept No. 1: Functions
+console.log("hello, world");
+
+// Concept No. 2: Variables
+var myVariable = "Variables are containers which hold values.";
+
+// Concept no. 3: Arrays
+var myArray = [];
+
+myArray[0] = "foo";
+myArray[1] = "bar";
+myArray[2] = "baz";
+
+//Concept no. 4: Loops (for and while)
+for (var i = 0; i < myArray.length; i++) {
+  console.log(myArray[i]);
+  
+}
+
+i = 0 ;
+while (i < myArray.length) {
+  console.log(myArray[i]);
+  i++;
+
+}
+
+// Concept No.5 If-Statements
+var mood = "engaged";
+if(mood == "engaged") {
+  console.log("What an exciting lesson on JavaScript!");
+} else {
+  console.log("This is quite a boring lesson on JavaScript...");
+}
